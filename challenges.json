@@ -1,0 +1,16 @@
+[
+  {
+    "id": 334,
+    "title": "Reverse String",
+    "description": "Write a function that reverses a string. The input string is given as an array of characters s. You must do this by modifying the input array in-place with O(1) extra memory.",
+    "input": ["h", "e", "l", "l", "o"],
+    "output": ["o", "l", "l", "e", "h"]
+  },
+  {
+    "id": 335,
+    "title": "Find Maximum",
+    "description": "Find the maximum number in an array of integers.",
+    "input": [1, 2, 3, 4, 5],
+    "output": [5]
+  }
+]
