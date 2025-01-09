@@ -11,9 +11,20 @@ function navigateTo(route) {
   loadRoute(route);
 }
 
-document.getElementById('dashboard-btn').addEventListener('click', () => {
-  navigateTo('/dashboard');
-});
+const dashboardBtn = document.getElementById('dashboard-btn');
+
+// Оновлюємо текст кнопки
+function updateButton() {
+  console.log('cliked');
+  const currentPage = window.location.pathname;
+  if (currentPage === '/dashboard') {
+    dashboardBtn.textContent = 'Return to Home Page';
+    dashboardBtn.onclick = () => navigateTo('/');
+  } else {
+    dashboardBtn.textContent = 'Go to Dashboard';
+    dashboardBtn.onclick = () => navigateTo('/dashboard');
+  }
+}
 
 function loadRoute(route) {
   const url = routes[route] || routes['/'];
@@ -27,6 +38,7 @@ function loadRoute(route) {
         loadChallenge();
       }
     });
+  updateButton();
 }
 
 function loadDashboard() {
