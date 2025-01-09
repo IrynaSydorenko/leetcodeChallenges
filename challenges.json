@@ -3,14 +3,34 @@
     "id": 334,
     "title": "Reverse String",
     "description": "Write a function that reverses a string. The input string is given as an array of characters s. You must do this by modifying the input array in-place with O(1) extra memory.",
-    "input": ["h", "e", "l", "l", "o"],
-    "output": ["o", "l", "l", "e", "h"]
+    "input": [["h", "e", "l", "l", "o"]],
+    "output": [["o", "l", "l", "e", "h"]]
   },
   {
-    "id": 335,
-    "title": "Find Maximum",
-    "description": "Find the maximum number in an array of integers.",
-    "input": [1, 2, 3, 4, 5],
-    "output": [5]
+    "id": 412,
+    "title": "FizzBuzz",
+    "description": "// Given an integer n, return a string array answer (1-indexed) where: answer[i] == 'FizzBuzz' if i is divisible by 3 and 5. answer[i] == 'Fizz' if i is divisible by 3.answer[i] == 'Buzz' if i is divisible by 5. answer[i] == i (as a string) if none of the above conditions are true.",
+    "input": ["n = 3", "n = 5", "n = 15"],
+    "output": [
+      ["1", "2", "Fizz"],
+      ["1", "2", "Fizz", "4", "Buzz"],
+      [
+        "1",
+        "2",
+        "Fizz",
+        "4",
+        "Buzz",
+        "Fizz",
+        "7",
+        "8",
+        "Fizz",
+        "Buzz",
+        "11",
+        "Fizz",
+        "13",
+        "14",
+        "FizzBuzz"
+      ]
+    ]
   }
 ]
