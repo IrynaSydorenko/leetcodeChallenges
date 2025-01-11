@@ -26,3 +26,5 @@ var singleNumber = function (nums) {
 };
 
 // console.log(singleNumber([4, 1, 2, 1, 2]));
+
+export default singleNumber;

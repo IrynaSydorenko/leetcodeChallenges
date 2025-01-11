@@ -28,3 +28,5 @@ var reverseString = function (s) {
 };
 
 // reverseString(['h', 'e', 'l', 'l', 'o']);
+
+export default reverseString;
