@@ -39,5 +39,15 @@
     "description": "Given a non-empty array of integers nums, every element appears twice except for one. Find that single one. You must implement a solution with a linear runtime complexity and use only constant extra space.",
     "input": [[2, 2, 1], [4, 1, 2, 1, 2], [1]],
     "output": [1, 4, 1]
+  },
+  {
+    "id": 104,
+    "title": "Maximum Depth of Binary Tree",
+    "description": "Given the root of a binary tree, return its maximum depth. A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.",
+    "input": [
+      [3, 9, 20, null, null, 15, 7],
+      [1, null, 2]
+    ],
+    "output": [3, 2]
   }
 ]

@@ -35,3 +35,5 @@ var fizzBuzz = function (n) {
 };
 
 // console.log(fizzBuzz(15));
+
+export default fizzBuzz;
