@@ -66,7 +66,7 @@
   },
   {
     "id": 206,
-    "title": "Title",
+    "title": "Reverse Linked List",
     "description": "Given the head of a singly linked list, reverse the list, and return the reversed list. ",
     "input": [[1, 2, 3, 4, 5], [1, 2], []],
     "output": [[5, 4, 3, 2, 1], [2, 1], []]
@@ -80,6 +80,13 @@
       [2, 2, 1, 1, 1, 2, 2]
     ],
     "output": [3, 2]
+  },
+  {
+    "id": 1,
+    "title": "Title",
+    "description": "",
+    "input": [],
+    "output": []
   },
   {
     "id": 1,
