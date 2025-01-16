@@ -94,5 +94,15 @@
     "description": "",
     "input": [],
     "output": []
+  },
+  {
+    "id": 242,
+    "title": "Valid Anagram",
+    "description": "Given two strings s and t, return true if t is an anagram of s, and false otherwise.",
+    "input": [
+      ["anagram", "nagaram"],
+      ["rat", "car"]
+    ],
+    "output": [true, false]
   }
 ]
