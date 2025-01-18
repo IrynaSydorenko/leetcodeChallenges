@@ -110,6 +110,13 @@
     "output": [true, false, true]
   },
   {
+    "id": 387,
+    "title": "First Unique Character in a String",
+    "description": "Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.",
+    "input": ["loveleetcode", "aabb"],
+    "output": [2, -1]
+  },
+  {
     "id": 1,
     "title": "Title",
     "description": "",
