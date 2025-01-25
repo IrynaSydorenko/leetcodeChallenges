@@ -184,6 +184,16 @@
     "output": [[[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]], [[1]]]
   },
   {
+    "id": 101,
+    "title": "Symmetric Tree",
+    "description": "Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).",
+    "input": [
+      [1, 2, 2, 3, 4, 4, 3],
+      [1, 2, 2, null, 3, null, 3]
+    ],
+    "output": [true, false]
+  },
+  {
     "id": 1,
     "title": "Title",
     "description": "",
