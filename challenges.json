@@ -194,6 +194,13 @@
     "output": [true, false]
   },
   {
+    "id": 326,
+    "title": "Power of Three",
+    "description": "Given an integer n, return true if it is a power of three. Otherwise, return false. An integer n is a power of three, if there exists an integer x such that n == 3x.",
+    "input": [27, 0, -1],
+    "output": [true, false, false]
+  },
+  {
     "id": 1,
     "title": "Title",
     "description": "",
