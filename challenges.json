@@ -212,6 +212,16 @@
     ]
   },
   {
+    "id": 28,
+    "title": "Implement strStr()",
+    "description": "Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.",
+    "input": [
+      ["sadbutsad", "sad"],
+      ["leetcode", "leeto"]
+    ],
+    "output": [0, -1]
+  },
+  {
     "id": 1,
     "title": "Title",
     "description": "",
