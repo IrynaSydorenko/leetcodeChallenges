@@ -263,6 +263,16 @@
     "output": [true, true, false]
   },
   {
+    "id": 234,
+    "title": "Palindrome Linked List",
+    "description": "Given the head of a singly linked list, return true if it is a palindrome or false otherwise.",
+    "input": [
+      [1, 2, 2, 1],
+      [1, 2]
+    ],
+    "output": [true, false]
+  },
+  {
     "id": 0,
     "title": "Title",
     "description": "",
