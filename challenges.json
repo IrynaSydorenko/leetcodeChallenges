@@ -284,6 +284,16 @@
     "output": [[1, 2, 2, 3, 5, 6], [1], [1]]
   },
   {
+    "id": 14,
+    "title": "Longest Common Prefix",
+    "description": "Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string ''.",
+    "input": [
+      ["flower", "flow", "flight"],
+      ["dog", "racecar", "car"]
+    ],
+    "output": ["fl", ""]
+  },
+  {
     "id": 0,
     "title": "Title",
     "description": "",
