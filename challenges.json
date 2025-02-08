@@ -334,6 +334,13 @@
     ]
   },
   {
+    "id": 204,
+    "title": "Count Primes",
+    "description": "Given an integer n, return the number of prime numbers that are strictly less than n.",
+    "input": [10, 0, 1],
+    "output": [4, 0, 0]
+  },
+  {
     "id": 0,
     "title": "Title",
     "description": "",
