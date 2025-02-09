@@ -341,6 +341,13 @@
     "output": [4, 0, 0]
   },
   {
+    "id": 7,
+    "title": "Title",
+    "description": "Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.",
+    "input": [123, -123, 120],
+    "output": [321, -321, 21]
+  },
+  {
     "id": 0,
     "title": "Title",
     "description": "",
