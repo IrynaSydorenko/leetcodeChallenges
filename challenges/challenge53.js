@@ -7,9 +7,13 @@ var maxSubArray = function (nums) {
   let total = 0;
   let res = nums[0];
 
-  for (let i = 1; i < nums.length; i++) {
-    total = total > 0 ? total + nums[i] : 0;
-    res += Math.max(total, res);
+  for (let i = 0; i < nums.length; i++) {
+    total += nums[i];
+    res = Math.max(total, res);
+
+    if (total < 0) {
+      total = 0;
+    }
   }
 
   return res;
