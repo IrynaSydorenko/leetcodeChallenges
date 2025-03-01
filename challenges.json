@@ -434,6 +434,31 @@
     "output": []
   },
   {
+    "id": 56,
+    "title": "Merge Intervals",
+    "description": "Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.",
+    "input": [
+      [
+        [1, 3],
+        [2, 6],
+        [8, 10],
+        [15, 18]
+      ],
+      [
+        [1, 4],
+        [4, 5]
+      ]
+    ],
+    "output": [
+      [
+        [1, 6],
+        [8, 10],
+        [15, 18]
+      ],
+      [[1, 5]]
+    ]
+  },
+  {
     "id": 0,
     "title": "Title",
     "description": "",
