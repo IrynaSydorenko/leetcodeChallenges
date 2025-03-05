@@ -459,6 +459,20 @@
     ]
   },
   {
+    "id": 155,
+    "title": "Min Stack",
+    "description": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.",
+    "input": [[[], [-2], [0], [-3], [], [], [], []]],
+    "output": [[null, null, null, null, -3, null, 0, -2]]
+  },
+  {
+    "id": 0,
+    "title": "Title",
+    "description": "",
+    "input": [],
+    "output": []
+  },
+  {
     "id": 0,
     "title": "Title",
     "description": "",
